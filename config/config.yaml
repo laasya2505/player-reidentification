@@ -1,0 +1,119 @@
+
+advanced:
+  association_method: hungarian
+  color_space: hsv
+  cost_function: weighted
+  histogram_normalization: l2
+  max_age_without_hits: 5
+  max_velocity: 50
+  measurement_noise: 0.1
+  min_hits_to_confirm: 3
+  position_smoothing: 0.1
+  process_noise: 0.1
+  reid_distance_metric: cosine
+  reid_feature_buffer_size: 5
+  use_kalman_filter: false
+
+debug:
+  crop_directory: debug/crops
+  frame_directory: debug/frames
+  save_detection_crops: false
+  save_intermediate_frames: false
+
+# Evaluation settings
+evaluation:
+  compute_idf1: false
+  compute_mota: false
+  compute_motp: false
+  eval_frequency: 10
+  ground_truth_file: null
+  metrics_file: results/metrics.json
+  save_metrics: false
+
+
+export:
+  detections_file: results/detections.json
+  export_detections: false
+  export_format: mp4
+  export_summary_image: false
+  export_tracks: false
+  summary_image_file: results/summary.png
+  tracks_file: results/tracks.json
+  video_codec: mp4v
+  video_quality: medium
+
+
+logging:
+  level: INFO
+  log_directory: logs
+  save_logs: true
+
+model:
+  confidence_threshold: 0.7          
+  iou_threshold: 0.4                 
+  min_detection_area: 500            
+  max_detection_area: 30000         
+  path: /Users/srinivas/Desktop/player_reidentification/models/yolov11_player_detection.pt
+
+performance:
+  device: "auto"      
+  batch_size: 4       
+  num_workers: 4      
+
+
+reidentification:
+  color_bins: 32                     
+  min_roi_size: 20                   
+  roi_padding: 5                     
+  similarity_threshold: 0.4          
+  inactive_track_timeout: 150        
+  use_hog_features: false           
+  use_lbp_features: false           
+
+
+tracking:
+  feature_weights:
+    spatial: 0.4                     
+    temporal: 0.2                    
+    visual: 0.4                      
+  max_disappeared_frames: 45         
+  max_distance_threshold: 80         
+
+
+video:
+  fps: 30
+  input_path: /Users/srinivas/Desktop/player_reidentification/data/15sec_input_720p.mp4
+  output_path: data/output/tracked_output.mp4
+  save_output: true
+  show_detections: true
+  show_tracks: true
+  show_trajectories: false           
+  trajectory_length: 30              
+
+
+optimization:
+  
+  enable_tensorrt: false             
+  enable_mixed_precision: false     
+  clear_cache_frequency: 100         
+  max_memory_usage: 0.8             
+  
+  
+  adaptive_threshold: true           
+  scene_change_detection: false     
+  
+
+  feature_caching: true            
+  similarity_caching: true          
+  
+
+experimental:
+  
+  use_deep_features: false          
+  use_pose_features: false          
+  use_temporal_features: false      
+  
+  
+  use_multi_scale: false            
+  use_attention: false              
+  use_graph_tracking: false        

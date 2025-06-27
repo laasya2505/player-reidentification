@@ -1,0 +1,636 @@
+2025-06-27 19:53:36,067 - root - INFO - Starting Player Re-identification System
+2025-06-27 19:57:32,577 - root - INFO - Starting Player Re-identification System
+2025-06-27 20:02:57,951 - root - INFO - Starting Player Re-identification System
+2025-06-27 20:05:13,294 - root - INFO - Starting Player Re-identification System
+2025-06-27 20:05:13,308 - root - INFO - Initializing detector...
+2025-06-27 20:05:13,315 - root - INFO - Using CPU
+2025-06-27 20:05:15,150 - root - INFO - ✓ Successfully loaded model from /Users/srinivas/Desktop/player_reidentification/models/yolov11_player_detection.pt
+2025-06-27 20:05:15,151 - root - INFO - ✓ Model classes: {0: 'ball', 1: 'goalkeeper', 2: 'player', 3: 'referee'}
+2025-06-27 20:05:15,151 - root - INFO - ✓ Device: cpu
+2025-06-27 20:05:15,153 - root - INFO - Initializing tracker...
+2025-06-27 20:05:15,153 - root - DEBUG - FeatureExtractor initialized with 32 color bins
+2025-06-27 20:05:15,154 - root - INFO - Player tracker initialized
+2025-06-27 20:05:15,155 - root - INFO - Initializing video processor...
+2025-06-27 20:05:15,155 - root - ERROR - Error during processing: '/Users/srinivas/Desktop/player_reidentification/data/15sec_input_720p.mp4'
+2025-06-27 20:08:24,940 - root - INFO - Starting Player Re-identification System
+2025-06-27 20:08:24,966 - root - INFO - Initializing detector...
+2025-06-27 20:08:24,976 - root - INFO - Using CPU
+2025-06-27 20:08:26,932 - root - INFO - ✓ Successfully loaded model from /Users/srinivas/Desktop/player_reidentification/models/yolov11_player_detection.pt
+2025-06-27 20:08:26,933 - root - INFO - ✓ Model classes: {0: 'ball', 1: 'goalkeeper', 2: 'player', 3: 'referee'}
+2025-06-27 20:08:26,933 - root - INFO - ✓ Device: cpu
+2025-06-27 20:08:26,933 - root - INFO - Initializing tracker...
+2025-06-27 20:08:26,933 - root - DEBUG - FeatureExtractor initialized with 32 color bins
+2025-06-27 20:08:26,934 - root - INFO - Player tracker initialized
+2025-06-27 20:08:26,934 - root - INFO - Initializing video processor...
+2025-06-27 20:08:26,934 - root - ERROR - Error during processing: [Errno 17] File exists: 'data/output'
+2025-06-27 20:09:16,758 - root - INFO - Starting Player Re-identification System
+2025-06-27 20:09:16,776 - root - INFO - Initializing detector...
+2025-06-27 20:09:16,777 - root - INFO - Using CPU
+2025-06-27 20:09:17,890 - root - INFO - ✓ Successfully loaded model from /Users/srinivas/Desktop/player_reidentification/models/yolov11_player_detection.pt
+2025-06-27 20:09:17,891 - root - INFO - ✓ Model classes: {0: 'ball', 1: 'goalkeeper', 2: 'player', 3: 'referee'}
+2025-06-27 20:09:17,891 - root - INFO - ✓ Device: cpu
+2025-06-27 20:09:17,891 - root - INFO - Initializing tracker...
+2025-06-27 20:09:17,891 - root - DEBUG - FeatureExtractor initialized with 32 color bins
+2025-06-27 20:09:17,892 - root - INFO - Player tracker initialized
+2025-06-27 20:09:17,892 - root - INFO - Initializing video processor...
+2025-06-27 20:09:17,892 - root - ERROR - Error during processing: 'input_path'
+2025-06-27 20:10:04,467 - root - INFO - Starting Player Re-identification System
+2025-06-27 20:10:04,477 - root - INFO - Initializing detector...
+2025-06-27 20:10:04,479 - root - INFO - Using CPU
+2025-06-27 20:10:05,505 - root - INFO - ✓ Successfully loaded model from /Users/srinivas/Desktop/player_reidentification/models/yolov11_player_detection.pt
+2025-06-27 20:10:05,506 - root - INFO - ✓ Model classes: {0: 'ball', 1: 'goalkeeper', 2: 'player', 3: 'referee'}
+2025-06-27 20:10:05,506 - root - INFO - ✓ Device: cpu
+2025-06-27 20:10:05,507 - root - INFO - Initializing tracker...
+2025-06-27 20:10:05,507 - root - DEBUG - FeatureExtractor initialized with 32 color bins
+2025-06-27 20:10:05,507 - root - INFO - Player tracker initialized
+2025-06-27 20:10:05,508 - root - INFO - Initializing video processor...
+2025-06-27 20:10:05,555 - root - INFO - Starting video processing...
+2025-06-27 20:10:05,889 - root - INFO - Processing video: 1280x720 @ 25.0 FPS, 375 frames
+2025-06-27 20:10:05,889 - root - INFO - Input: /Users/srinivas/Desktop/player_reidentification/data/15sec_input_720p.mp4
+2025-06-27 20:10:05,889 - root - INFO - Output: data/output/tracked_output.mp4
+2025-06-27 20:10:22,454 - root - DEBUG - Created new track 1
+2025-06-27 20:10:22,456 - root - DEBUG - Created new track 2
+2025-06-27 20:10:22,456 - root - DEBUG - Created new track 3
+2025-06-27 20:10:22,456 - root - DEBUG - Created new track 4
+2025-06-27 20:10:22,456 - root - DEBUG - Created new track 5
+2025-06-27 20:10:22,456 - root - DEBUG - Created new track 6
+2025-06-27 20:10:22,456 - root - DEBUG - Created new track 7
+2025-06-27 20:10:22,457 - root - DEBUG - Created new track 8
+2025-06-27 20:10:22,457 - root - DEBUG - Created new track 9
+2025-06-27 20:10:22,457 - root - DEBUG - Created new track 10
+2025-06-27 20:10:22,457 - root - DEBUG - Created new track 11
+2025-06-27 20:10:22,457 - root - DEBUG - Created new track 12
+2025-06-27 20:10:22,457 - root - DEBUG - Created new track 13
+2025-06-27 20:10:22,457 - root - DEBUG - Created new track 14
+2025-06-27 20:10:22,457 - root - DEBUG - Created new track 15
+2025-06-27 20:10:22,457 - root - DEBUG - Created new track 16
+2025-06-27 20:10:22,458 - root - DEBUG - Created new track 17
+2025-06-27 20:10:27,539 - root - DEBUG - Created new track 18
+2025-06-27 20:10:36,202 - root - DEBUG - Created new track 19
+2025-06-27 20:10:55,328 - root - DEBUG - Created new track 20
+2025-06-27 20:11:11,821 - root - DEBUG - Created new track 21
+2025-06-27 20:11:29,326 - root - INFO - Frame 30/375 (8.0%) - FPS: 0.4, Frame time: 2737.0ms
+2025-06-27 20:11:39,448 - root - DEBUG - Moved track 12 to inactive
+2025-06-27 20:11:50,506 - root - DEBUG - Re-identified player 12
+2025-06-27 20:12:45,964 - root - DEBUG - Created new track 22
+2025-06-27 20:12:45,984 - root - INFO - Frame 60/375 (16.0%) - FPS: 0.4, Frame time: 2520.8ms
+2025-06-27 20:13:29,491 - root - DEBUG - Created new track 23
+2025-06-27 20:13:55,472 - root - INFO - Frame 90/375 (24.0%) - FPS: 0.4, Frame time: 2288.4ms
+2025-06-27 20:13:59,828 - root - DEBUG - Created new track 24
+2025-06-27 20:14:06,369 - root - DEBUG - Created new track 25
+2025-06-27 20:14:14,860 - root - DEBUG - Created new track 26
+2025-06-27 20:14:14,860 - root - DEBUG - Moved track 22 to inactive
+2025-06-27 20:14:31,654 - root - DEBUG - Created new track 27
+2025-06-27 20:14:37,748 - root - DEBUG - Moved track 21 to inactive
+2025-06-27 20:14:40,436 - root - DEBUG - Moved track 17 to inactive
+2025-06-27 20:14:42,699 - root - DEBUG - Moved track 5 to inactive
+2025-06-27 20:14:47,009 - root - DEBUG - Created new track 28
+2025-06-27 20:14:51,813 - root - DEBUG - Created new track 29
+2025-06-27 20:15:05,183 - root - INFO - Frame 120/375 (32.0%) - FPS: 0.4, Frame time: 2298.6ms
+2025-06-27 20:15:15,695 - root - DEBUG - Moved track 24 to inactive
+2025-06-27 20:15:26,716 - root - DEBUG - Created new track 30
+2025-06-27 20:15:26,716 - root - DEBUG - Moved track 12 to inactive
+2025-06-27 20:15:31,090 - root - DEBUG - Re-identified player 24
+2025-06-27 20:15:33,184 - root - DEBUG - Created new track 31
+2025-06-27 20:15:42,799 - root - DEBUG - Moved track 9 to inactive
+2025-06-27 20:15:45,682 - root - DEBUG - Moved track 4 to inactive
+2025-06-27 20:15:45,683 - root - DEBUG - Moved track 15 to inactive
+2025-06-27 20:15:53,617 - root - DEBUG - Created new track 32
+2025-06-27 20:15:56,047 - root - DEBUG - Moved track 2 to inactive
+2025-06-27 20:16:15,633 - root - DEBUG - Moved track 20 to inactive
+2025-06-27 20:16:15,657 - root - INFO - Frame 150/375 (40.0%) - FPS: 0.4, Frame time: 2323.2ms
+2025-06-27 20:16:41,129 - root - DEBUG - Removed old inactive track 22
+2025-06-27 20:16:43,202 - root - DEBUG - Moved track 16 to inactive
+2025-06-27 20:16:45,524 - root - DEBUG - Moved track 14 to inactive
+2025-06-27 20:16:52,314 - root - DEBUG - Moved track 13 to inactive
+2025-06-27 20:17:00,912 - root - DEBUG - Removed old inactive track 21
+2025-06-27 20:17:02,986 - root - DEBUG - Removed old inactive track 17
+2025-06-27 20:17:05,041 - root - DEBUG - Removed old inactive track 5
+2025-06-27 20:17:11,257 - root - DEBUG - Created new track 33
+2025-06-27 20:17:13,346 - root - DEBUG - Moved track 31 to inactive
+2025-06-27 20:17:15,409 - root - DEBUG - Moved track 24 to inactive
+2025-06-27 20:17:25,741 - root - INFO - Frame 180/375 (48.0%) - FPS: 0.4, Frame time: 2310.9ms
+2025-06-27 20:17:27,798 - root - DEBUG - Created new track 34
+2025-06-27 20:17:27,799 - root - DEBUG - Created new track 35
+2025-06-27 20:17:41,214 - root - DEBUG - Moved track 28 to inactive
+2025-06-27 20:17:47,812 - root - DEBUG - Removed old inactive track 12
+2025-06-27 20:17:52,800 - root - DEBUG - Moved track 19 to inactive
+2025-06-27 20:17:54,905 - root - DEBUG - Created new track 36
+2025-06-27 20:17:54,906 - root - DEBUG - Created new track 37
+2025-06-27 20:18:03,316 - root - DEBUG - Removed old inactive track 9
+2025-06-27 20:18:05,436 - root - DEBUG - Created new track 38
+2025-06-27 20:18:05,436 - root - DEBUG - Removed old inactive track 4
+2025-06-27 20:18:05,436 - root - DEBUG - Removed old inactive track 15
+2025-06-27 20:18:09,671 - root - DEBUG - Created new track 39
+2025-06-27 20:18:13,890 - root - DEBUG - Created new track 40
+2025-06-27 20:18:13,890 - root - DEBUG - Removed old inactive track 2
+2025-06-27 20:18:22,390 - root - DEBUG - Moved track 33 to inactive
+2025-06-27 20:18:30,878 - root - DEBUG - Removed old inactive track 20
+2025-06-27 20:18:30,897 - root - INFO - Frame 210/375 (56.0%) - FPS: 0.4, Frame time: 2147.2ms
+2025-06-27 20:18:32,999 - root - DEBUG - Moved track 1 to inactive
+2025-06-27 20:18:41,534 - root - DEBUG - Moved track 35 to inactive
+2025-06-27 20:18:45,674 - root - DEBUG - Created new track 41
+2025-06-27 20:18:45,675 - root - DEBUG - Created new track 42
+2025-06-27 20:18:52,270 - root - DEBUG - Removed old inactive track 16
+2025-06-27 20:18:54,341 - root - DEBUG - Removed old inactive track 14
+2025-06-27 20:19:00,506 - root - DEBUG - Created new track 43
+2025-06-27 20:19:00,507 - root - DEBUG - Removed old inactive track 13
+2025-06-27 20:19:04,729 - root - DEBUG - Moved track 10 to inactive
+2025-06-27 20:19:13,536 - root - DEBUG - Created new track 44
+2025-06-27 20:19:15,663 - root - DEBUG - Moved track 38 to inactive
+2025-06-27 20:19:22,259 - root - DEBUG - Removed old inactive track 31
+2025-06-27 20:19:24,440 - root - DEBUG - Removed old inactive track 24
+2025-06-27 20:19:34,839 - root - DEBUG - Created new track 45
+2025-06-27 20:19:34,863 - root - INFO - Frame 240/375 (64.0%) - FPS: 0.4, Frame time: 2106.7ms
+2025-06-27 20:19:38,942 - root - DEBUG - Moved track 3 to inactive
+2025-06-27 20:19:43,408 - root - DEBUG - Moved track 30 to inactive
+2025-06-27 20:19:45,478 - root - DEBUG - Moved track 18 to inactive
+2025-06-27 20:19:45,478 - root - DEBUG - Moved track 32 to inactive
+2025-06-27 20:19:49,582 - root - DEBUG - Removed old inactive track 28
+2025-06-27 20:19:51,734 - root - DEBUG - Moved track 29 to inactive
+2025-06-27 20:19:53,851 - root - DEBUG - Moved track 40 to inactive
+2025-06-27 20:19:59,967 - root - DEBUG - Moved track 25 to inactive
+2025-06-27 20:19:59,967 - root - DEBUG - Removed old inactive track 19
+2025-06-27 20:20:16,627 - root - DEBUG - Created new track 46
+2025-06-27 20:20:22,830 - root - DEBUG - Moved track 6 to inactive
+2025-06-27 20:20:24,944 - root - DEBUG - Moved track 7 to inactive
+2025-06-27 20:20:27,054 - root - DEBUG - Moved track 44 to inactive
+2025-06-27 20:20:29,218 - root - DEBUG - Removed old inactive track 33
+2025-06-27 20:20:35,334 - root - DEBUG - Created new track 47
+2025-06-27 20:20:37,432 - root - INFO - Frame 270/375 (72.0%) - FPS: 0.4, Frame time: 2058.4ms
+2025-06-27 20:20:39,502 - root - DEBUG - Removed old inactive track 1
+2025-06-27 20:20:47,716 - root - DEBUG - Re-identified player 7
+2025-06-27 20:20:47,716 - root - DEBUG - Removed old inactive track 35
+2025-06-27 20:20:59,967 - root - DEBUG - Re-identified player 18
+2025-06-27 20:21:11,558 - root - DEBUG - Removed old inactive track 10
+2025-06-27 20:21:13,914 - root - DEBUG - Created new track 48
+2025-06-27 20:21:22,522 - root - DEBUG - Moved track 46 to inactive
+2025-06-27 20:21:22,522 - root - DEBUG - Removed old inactive track 38
+2025-06-27 20:21:39,336 - root - DEBUG - Created new track 49
+2025-06-27 20:21:44,773 - root - INFO - Frame 300/375 (80.0%) - FPS: 0.4, Frame time: 2218.4ms
+2025-06-27 20:21:49,303 - root - DEBUG - Removed old inactive track 3
+2025-06-27 20:21:54,058 - root - DEBUG - Created new track 50
+2025-06-27 20:21:54,058 - root - DEBUG - Removed old inactive track 30
+2025-06-27 20:21:56,522 - root - DEBUG - Removed old inactive track 32
+2025-06-27 20:22:01,269 - root - DEBUG - Created new track 51
+2025-06-27 20:22:03,626 - root - DEBUG - Removed old inactive track 29
+2025-06-27 20:22:05,903 - root - DEBUG - Removed old inactive track 40
+2025-06-27 20:22:12,348 - root - DEBUG - Removed old inactive track 25
+2025-06-27 20:22:24,895 - root - DEBUG - Moved track 23 to inactive
+2025-06-27 20:22:35,363 - root - DEBUG - Removed old inactive track 6
+2025-06-27 20:22:39,953 - root - DEBUG - Removed old inactive track 44
+2025-06-27 20:22:50,388 - root - INFO - Frame 330/375 (88.0%) - FPS: 0.4, Frame time: 2162.0ms
+2025-06-27 20:23:06,931 - root - DEBUG - Created new track 52
+2025-06-27 20:23:15,189 - root - DEBUG - Created new track 53
+2025-06-27 20:23:17,241 - root - DEBUG - Moved track 11 to inactive
+2025-06-27 20:23:19,328 - root - DEBUG - Moved track 49 to inactive
+2025-06-27 20:23:23,452 - root - DEBUG - Moved track 36 to inactive
+2025-06-27 20:23:32,664 - root - DEBUG - Moved track 41 to inactive
+2025-06-27 20:23:35,767 - root - DEBUG - Removed old inactive track 46
+2025-06-27 20:23:41,105 - root - DEBUG - Created new track 54
+2025-06-27 20:23:49,885 - root - DEBUG - Moved track 45 to inactive
+2025-06-27 20:23:56,117 - root - DEBUG - Moved track 42 to inactive
+2025-06-27 20:23:56,131 - root - INFO - Frame 360/375 (96.0%) - FPS: 0.4, Frame time: 2165.3ms
+2025-06-27 20:24:07,276 - root - DEBUG - Moved track 37 to inactive
+2025-06-27 20:24:19,793 - root - DEBUG - Created new track 55
+2025-06-27 20:24:27,964 - root - INFO - Frame 375/375 (100.0%) - FPS: 0.4, Frame time: 2192.7ms
+2025-06-27 20:24:28,017 - root - INFO - ==================================================
+2025-06-27 20:24:28,017 - root - INFO - PROCESSING COMPLETE
+2025-06-27 20:24:28,017 - root - INFO - ==================================================
+2025-06-27 20:24:28,018 - root - INFO - Total frames processed: 375
+2025-06-27 20:24:28,018 - root - INFO - Total processing time: 862.11s
+2025-06-27 20:24:28,018 - root - INFO - Average FPS: 0.43
+2025-06-27 20:24:28,019 - root - INFO - Total detections: 5055
+2025-06-27 20:24:28,019 - root - INFO - Max simultaneous tracks: 26
+2025-06-27 20:24:28,019 - root - INFO - Detection validity rate: 100.00%
+2025-06-27 20:24:28,020 - root - INFO - Total tracks created: 55
+2025-06-27 20:24:28,020 - root - INFO - Successful re-identifications: 4
+2025-06-27 20:24:28,021 - root - INFO - Re-identification rate: 7.27%
+2025-06-27 20:24:28,021 - root - INFO - Output saved to: data/output/tracked_output.mp4
+2025-06-27 20:24:28,022 - root - INFO - ==================================================
+2025-06-27 20:24:28,024 - root - INFO - Processing complete!
+2025-06-27 21:13:44,846 - root - INFO - Starting Player Re-identification System
+2025-06-27 21:13:44,863 - root - INFO - Initializing detector...
+2025-06-27 21:13:44,866 - root - INFO - Using CPU
+2025-06-27 21:13:46,655 - root - INFO - ✓ Successfully loaded model from /Users/srinivas/Desktop/player_reidentification/models/yolov11_player_detection.pt
+2025-06-27 21:13:46,655 - root - INFO - ✓ Model classes: {0: 'ball', 1: 'goalkeeper', 2: 'player', 3: 'referee'}
+2025-06-27 21:13:46,656 - root - INFO - ✓ Device: cpu
+2025-06-27 21:13:46,656 - root - INFO - Initializing tracker...
+2025-06-27 21:13:46,657 - root - DEBUG - FeatureExtractor initialized with 32 color bins
+2025-06-27 21:13:46,657 - root - INFO - Player tracker initialized
+2025-06-27 21:13:46,657 - root - INFO - Initializing video processor...
+2025-06-27 21:13:46,684 - root - INFO - Starting video processing...
+2025-06-27 21:13:46,922 - root - INFO - Processing video: 1280x720 @ 25.0 FPS, 375 frames
+2025-06-27 21:13:46,923 - root - INFO - Input: /Users/srinivas/Desktop/player_reidentification/data/15sec_input_720p.mp4
+2025-06-27 21:13:46,926 - root - INFO - Output: data/output/tracked_output.mp4
+2025-06-27 21:13:56,111 - root - DEBUG - Created new track 1
+2025-06-27 21:13:56,113 - root - DEBUG - Created new track 2
+2025-06-27 21:13:56,113 - root - DEBUG - Created new track 3
+2025-06-27 21:13:56,113 - root - DEBUG - Created new track 4
+2025-06-27 21:13:56,113 - root - DEBUG - Created new track 5
+2025-06-27 21:13:56,113 - root - DEBUG - Created new track 6
+2025-06-27 21:13:56,113 - root - DEBUG - Created new track 7
+2025-06-27 21:13:56,113 - root - DEBUG - Created new track 8
+2025-06-27 21:13:56,114 - root - DEBUG - Created new track 9
+2025-06-27 21:13:56,114 - root - DEBUG - Created new track 10
+2025-06-27 21:13:56,114 - root - DEBUG - Created new track 11
+2025-06-27 21:13:56,114 - root - DEBUG - Created new track 12
+2025-06-27 21:13:56,114 - root - DEBUG - Created new track 13
+2025-06-27 21:13:56,114 - root - DEBUG - Created new track 14
+2025-06-27 21:13:56,114 - root - DEBUG - Created new track 15
+2025-06-27 21:13:56,114 - root - DEBUG - Created new track 16
+2025-06-27 21:13:56,114 - root - DEBUG - Created new track 17
+2025-06-27 21:14:15,631 - root - DEBUG - Created new track 18
+2025-06-27 21:14:30,574 - root - DEBUG - Created new track 19
+2025-06-27 21:14:42,711 - root - DEBUG - Created new track 20
+2025-06-27 21:14:48,864 - root - DEBUG - Created new track 21
+2025-06-27 21:14:50,935 - root - DEBUG - Created new track 22
+2025-06-27 21:14:57,128 - root - INFO - Frame 30/375 (8.0%) - FPS: 0.4, Frame time: 2299.7ms
+2025-06-27 21:15:32,278 - root - DEBUG - Created new track 23
+2025-06-27 21:15:36,872 - root - DEBUG - Moved track 12 to inactive
+2025-06-27 21:15:44,142 - root - DEBUG - Created new track 24
+2025-06-27 21:15:58,139 - root - DEBUG - Moved track 18 to inactive
+2025-06-27 21:16:08,297 - root - INFO - Frame 60/375 (16.0%) - FPS: 0.4, Frame time: 2347.4ms
+2025-06-27 21:16:36,806 - root - DEBUG - Created new track 25
+2025-06-27 21:17:23,879 - root - INFO - Starting Player Re-identification System
+2025-06-27 21:17:23,887 - root - INFO - Initializing detector...
+2025-06-27 21:17:23,889 - root - INFO - Using CPU
+2025-06-27 21:17:25,426 - root - INFO - ✓ Successfully loaded model from /Users/srinivas/Desktop/player_reidentification/models/yolov11_player_detection.pt
+2025-06-27 21:17:25,426 - root - INFO - ✓ Model classes: {0: 'ball', 1: 'goalkeeper', 2: 'player', 3: 'referee'}
+2025-06-27 21:17:25,427 - root - INFO - ✓ Device: cpu
+2025-06-27 21:17:25,427 - root - INFO - Initializing tracker...
+2025-06-27 21:17:25,427 - root - DEBUG - FeatureExtractor initialized with 32 color bins
+2025-06-27 21:17:25,427 - root - INFO - Player tracker initialized
+2025-06-27 21:17:25,428 - root - INFO - Initializing video processor...
+2025-06-27 21:17:25,428 - root - INFO - Starting video processing...
+2025-06-27 21:17:25,468 - root - INFO - Processing video: 1280x720 @ 25.0 FPS, 375 frames
+2025-06-27 21:17:25,468 - root - INFO - Input: /Users/srinivas/Desktop/player_reidentification/data/15sec_input_720p.mp4
+2025-06-27 21:17:25,469 - root - INFO - Output: data/output/tracked_output.mp4
+2025-06-27 21:17:34,941 - root - DEBUG - Created new track 1
+2025-06-27 21:17:34,942 - root - DEBUG - Created new track 2
+2025-06-27 21:17:34,945 - root - DEBUG - Created new track 3
+2025-06-27 21:17:34,945 - root - DEBUG - Created new track 4
+2025-06-27 21:17:34,945 - root - DEBUG - Created new track 5
+2025-06-27 21:17:34,945 - root - DEBUG - Created new track 6
+2025-06-27 21:17:34,945 - root - DEBUG - Created new track 7
+2025-06-27 21:17:34,946 - root - DEBUG - Created new track 8
+2025-06-27 21:17:34,946 - root - DEBUG - Created new track 9
+2025-06-27 21:17:34,946 - root - DEBUG - Created new track 10
+2025-06-27 21:17:34,946 - root - DEBUG - Created new track 11
+2025-06-27 21:17:34,946 - root - DEBUG - Created new track 12
+2025-06-27 21:17:34,946 - root - DEBUG - Created new track 13
+2025-06-27 21:17:34,946 - root - DEBUG - Created new track 14
+2025-06-27 21:17:34,947 - root - DEBUG - Created new track 15
+2025-06-27 21:17:34,947 - root - DEBUG - Created new track 16
+2025-06-27 21:17:34,948 - root - DEBUG - Created new track 17
+2025-06-27 21:17:57,718 - root - DEBUG - Created new track 18
+2025-06-27 21:18:12,891 - root - DEBUG - Created new track 19
+2025-06-27 21:18:24,590 - root - INFO - Starting Player Re-identification System
+2025-06-27 21:18:24,601 - root - INFO - Initializing detector...
+2025-06-27 21:18:24,602 - root - INFO - Using CPU
+2025-06-27 21:18:25,720 - root - INFO - ✓ Successfully loaded model from /Users/srinivas/Desktop/player_reidentification/models/yolov11_player_detection.pt
+2025-06-27 21:18:25,720 - root - INFO - ✓ Model classes: {0: 'ball', 1: 'goalkeeper', 2: 'player', 3: 'referee'}
+2025-06-27 21:18:25,720 - root - INFO - ✓ Device: cpu
+2025-06-27 21:18:25,720 - root - INFO - Initializing tracker...
+2025-06-27 21:18:25,720 - root - INFO - Player tracker initialized
+2025-06-27 21:18:25,721 - root - INFO - Initializing video processor...
+2025-06-27 21:18:25,721 - root - INFO - Starting video processing...
+2025-06-27 21:18:25,753 - root - INFO - Processing video: 1280x720 @ 25.0 FPS, 375 frames
+2025-06-27 21:18:25,754 - root - INFO - Input: /Users/srinivas/Desktop/player_reidentification/data/15sec_input_720p.mp4
+2025-06-27 21:18:25,754 - root - INFO - Output: data/output/tracked_output.mp4
+2025-06-27 21:20:04,971 - root - INFO - Starting Player Re-identification System
+2025-06-27 21:20:04,981 - root - INFO - Initializing detector...
+2025-06-27 21:20:04,983 - root - INFO - Using CPU
+2025-06-27 21:20:05,998 - root - INFO - ✓ Successfully loaded model from /Users/srinivas/Desktop/player_reidentification/models/yolov11_player_detection.pt
+2025-06-27 21:20:05,998 - root - INFO - ✓ Model classes: {0: 'ball', 1: 'goalkeeper', 2: 'player', 3: 'referee'}
+2025-06-27 21:20:05,998 - root - INFO - ✓ Device: cpu
+2025-06-27 21:20:05,999 - root - INFO - Initializing tracker...
+2025-06-27 21:20:05,999 - root - DEBUG - FeatureExtractor initialized with 32 color bins
+2025-06-27 21:20:05,999 - root - INFO - Player tracker initialized
+2025-06-27 21:20:05,999 - root - INFO - Initializing video processor...
+2025-06-27 21:20:06,000 - root - INFO - Starting video processing...
+2025-06-27 21:20:06,030 - root - INFO - Processing video: 1280x720 @ 25.0 FPS, 375 frames
+2025-06-27 21:20:06,030 - root - INFO - Input: /Users/srinivas/Desktop/player_reidentification/data/15sec_input_720p.mp4
+2025-06-27 21:20:06,031 - root - INFO - Output: data/output/tracked_output.mp4
+2025-06-27 21:20:14,889 - root - DEBUG - Created new track 1
+2025-06-27 21:20:14,889 - root - DEBUG - Created new track 2
+2025-06-27 21:20:14,889 - root - DEBUG - Created new track 3
+2025-06-27 21:20:14,889 - root - DEBUG - Created new track 4
+2025-06-27 21:20:14,889 - root - DEBUG - Created new track 5
+2025-06-27 21:20:14,889 - root - DEBUG - Created new track 6
+2025-06-27 21:20:14,889 - root - DEBUG - Created new track 7
+2025-06-27 21:20:14,889 - root - DEBUG - Created new track 8
+2025-06-27 21:20:14,890 - root - DEBUG - Created new track 9
+2025-06-27 21:20:14,890 - root - DEBUG - Created new track 10
+2025-06-27 21:20:14,890 - root - DEBUG - Created new track 11
+2025-06-27 21:20:14,890 - root - DEBUG - Created new track 12
+2025-06-27 21:20:14,890 - root - DEBUG - Created new track 13
+2025-06-27 21:20:14,890 - root - DEBUG - Created new track 14
+2025-06-27 21:20:14,890 - root - DEBUG - Created new track 15
+2025-06-27 21:20:14,890 - root - DEBUG - Created new track 16
+2025-06-27 21:20:14,890 - root - DEBUG - Created new track 17
+2025-06-27 21:20:34,513 - root - DEBUG - Created new track 18
+2025-06-27 21:20:49,105 - root - DEBUG - Created new track 19
+2025-06-27 21:21:01,600 - root - DEBUG - Created new track 20
+2025-06-27 21:21:07,941 - root - DEBUG - Created new track 21
+2025-06-27 21:21:10,078 - root - DEBUG - Created new track 22
+2025-06-27 21:21:16,332 - root - INFO - Frame 30/375 (8.0%) - FPS: 0.4, Frame time: 2309.4ms
+2025-06-27 21:21:52,308 - root - DEBUG - Created new track 23
+2025-06-27 21:21:56,523 - root - DEBUG - Moved track 12 to inactive
+2025-06-27 21:22:02,923 - root - DEBUG - Created new track 24
+2025-06-27 21:22:13,442 - root - DEBUG - Moved track 18 to inactive
+2025-06-27 21:22:19,992 - root - INFO - Frame 60/375 (16.0%) - FPS: 0.4, Frame time: 2096.2ms
+2025-06-27 21:22:36,747 - root - DEBUG - Created new track 25
+2025-06-27 21:22:57,880 - root - DEBUG - Re-identified player 12
+2025-06-27 21:23:00,000 - root - DEBUG - Created new track 26
+2025-06-27 21:23:21,067 - root - DEBUG - Created new track 27
+2025-06-27 21:23:23,161 - root - INFO - Frame 90/375 (24.0%) - FPS: 0.5, Frame time: 2081.2ms
+2025-06-27 21:23:27,396 - root - DEBUG - Moved track 21 to inactive
+2025-06-27 21:23:29,512 - root - DEBUG - Moved track 14 to inactive
+2025-06-27 21:23:33,777 - root - DEBUG - Created new track 28
+2025-06-27 21:23:40,345 - root - DEBUG - Moved track 1 to inactive
+2025-06-27 21:23:44,590 - root - DEBUG - Moved track 20 to inactive
+2025-06-27 21:23:57,427 - root - DEBUG - Created new track 29
+2025-06-27 21:24:12,204 - root - DEBUG - Moved track 23 to inactive
+2025-06-27 21:24:14,327 - root - DEBUG - Re-identified player 20
+2025-06-27 21:24:14,327 - root - DEBUG - Moved track 25 to inactive
+2025-06-27 21:24:16,425 - root - DEBUG - Re-identified player 1
+2025-06-27 21:24:22,728 - root - DEBUG - Created new track 30
+2025-06-27 21:24:26,988 - root - INFO - Frame 120/375 (32.0%) - FPS: 0.5, Frame time: 2102.9ms
+2025-06-27 21:24:37,447 - root - DEBUG - Moved track 5 to inactive
+2025-06-27 21:24:47,990 - root - DEBUG - Re-identified player 23
+2025-06-27 21:24:50,058 - root - DEBUG - Created new track 31
+2025-06-27 21:25:13,311 - root - DEBUG - Re-identified player 5
+2025-06-27 21:25:17,489 - root - DEBUG - Moved track 24 to inactive
+2025-06-27 21:25:19,580 - root - DEBUG - Moved track 11 to inactive
+2025-06-27 21:25:30,120 - root - INFO - Frame 150/375 (40.0%) - FPS: 0.5, Frame time: 2079.5ms
+2025-06-27 21:25:34,307 - root - DEBUG - Moved track 9 to inactive
+2025-06-27 21:25:34,307 - root - DEBUG - Moved track 15 to inactive
+2025-06-27 21:25:36,423 - root - DEBUG - Moved track 4 to inactive
+2025-06-27 21:25:42,684 - root - DEBUG - Moved track 2 to inactive
+2025-06-27 21:25:55,290 - root - DEBUG - Removed old inactive track 18
+2025-06-27 21:25:57,453 - root - DEBUG - Moved track 6 to inactive
+2025-06-27 21:25:59,546 - root - DEBUG - Moved track 17 to inactive
+2025-06-27 21:26:20,437 - root - DEBUG - Re-identified player 9
+2025-06-27 21:26:22,544 - root - DEBUG - Moved track 10 to inactive
+2025-06-27 21:26:24,647 - root - DEBUG - Moved track 22 to inactive
+2025-06-27 21:26:24,647 - root - DEBUG - Moved track 23 to inactive
+2025-06-27 21:26:33,024 - root - INFO - Frame 180/375 (48.0%) - FPS: 0.5, Frame time: 2072.2ms
+2025-06-27 21:26:41,336 - root - DEBUG - Re-identified player 11
+2025-06-27 21:26:58,720 - root - DEBUG - Moved track 31 to inactive
+2025-06-27 21:27:00,860 - root - DEBUG - Re-identified player 6
+2025-06-27 21:27:09,298 - root - DEBUG - Re-identified player 22
+2025-06-27 21:27:09,298 - root - DEBUG - Removed old inactive track 21
+2025-06-27 21:27:11,383 - root - DEBUG - Created new track 32
+2025-06-27 21:27:11,383 - root - DEBUG - Removed old inactive track 14
+2025-06-27 21:27:17,611 - root - DEBUG - Moved track 30 to inactive
+2025-06-27 21:27:17,612 - root - DEBUG - Moved track 5 to inactive
+2025-06-27 21:27:36,468 - root - DEBUG - Re-identified player 23
+2025-06-27 21:27:36,485 - root - INFO - Frame 210/375 (56.0%) - FPS: 0.5, Frame time: 2090.7ms
+2025-06-27 21:27:50,834 - root - DEBUG - Re-identified player 31
+2025-06-27 21:27:50,834 - root - DEBUG - Re-identified player 24
+2025-06-27 21:27:54,958 - root - DEBUG - Removed old inactive track 25
+2025-06-27 21:27:57,071 - root - DEBUG - Moved track 9 to inactive
+2025-06-27 21:28:06,596 - root - DEBUG - Re-identified player 9
+2025-06-27 21:28:08,839 - root - DEBUG - Created new track 33
+2025-06-27 21:28:08,839 - root - DEBUG - Moved track 7 to inactive
+2025-06-27 21:28:19,936 - root - DEBUG - Created new track 34
+2025-06-27 21:28:22,960 - root - DEBUG - Created new track 35
+2025-06-27 21:28:42,582 - root - DEBUG - Created new track 36
+2025-06-27 21:28:42,583 - root - DEBUG - Moved track 16 to inactive
+2025-06-27 21:28:42,606 - root - INFO - Frame 240/375 (64.0%) - FPS: 0.5, Frame time: 2171.2ms
+2025-06-27 21:28:52,758 - root - DEBUG - Moved track 22 to inactive
+2025-06-27 21:28:56,796 - root - DEBUG - Moved track 6 to inactive
+2025-06-27 21:29:00,940 - root - DEBUG - Re-identified player 22
+2025-06-27 21:29:17,124 - root - DEBUG - Moved track 3 to inactive
+2025-06-27 21:29:17,125 - root - DEBUG - Removed old inactive track 15
+2025-06-27 21:29:19,152 - root - DEBUG - Removed old inactive track 4
+2025-06-27 21:29:21,199 - root - DEBUG - Moved track 1 to inactive
+2025-06-27 21:29:23,444 - root - DEBUG - Moved track 13 to inactive
+2025-06-27 21:29:25,498 - root - DEBUG - Removed old inactive track 2
+2025-06-27 21:29:29,635 - root - DEBUG - Moved track 11 to inactive
+2025-06-27 21:29:29,636 - root - DEBUG - Moved track 23 to inactive
+2025-06-27 21:29:29,636 - root - DEBUG - Moved track 31 to inactive
+2025-06-27 21:29:29,636 - root - DEBUG - Moved track 24 to inactive
+2025-06-27 21:29:37,740 - root - DEBUG - Moved track 12 to inactive
+2025-06-27 21:29:41,836 - root - DEBUG - Removed old inactive track 17
+2025-06-27 21:29:43,881 - root - DEBUG - Moved track 9 to inactive
+2025-06-27 21:29:43,905 - root - INFO - Frame 270/375 (72.0%) - FPS: 0.5, Frame time: 2015.8ms
+2025-06-27 21:29:54,332 - root - DEBUG - Re-identified player 13
+2025-06-27 21:30:02,702 - root - DEBUG - Moved track 19 to inactive
+2025-06-27 21:30:04,822 - root - DEBUG - Removed old inactive track 10
+2025-06-27 21:30:08,903 - root - DEBUG - Re-identified player 12
+2025-06-27 21:30:21,182 - root - DEBUG - Re-identified player 31
+2025-06-27 21:30:29,469 - root - DEBUG - Re-identified player 24
+2025-06-27 21:30:37,824 - root - DEBUG - Re-identified player 5
+2025-06-27 21:30:37,824 - root - DEBUG - Moved track 26 to inactive
+2025-06-27 21:30:46,079 - root - DEBUG - Re-identified player 26
+2025-06-27 21:30:46,094 - root - INFO - Frame 300/375 (80.0%) - FPS: 0.5, Frame time: 2046.8ms
+2025-06-27 21:30:52,353 - root - DEBUG - Re-identified player 1
+2025-06-27 21:30:52,354 - root - DEBUG - Moved track 22 to inactive
+2025-06-27 21:30:54,431 - root - DEBUG - Re-identified player 16
+2025-06-27 21:30:58,690 - root - DEBUG - Removed old inactive track 30
+2025-06-27 21:31:00,853 - root - DEBUG - Re-identified player 6
+2025-06-27 21:31:24,034 - root - DEBUG - Moved track 34 to inactive
+2025-06-27 21:31:34,562 - root - DEBUG - Moved track 35 to inactive
+2025-06-27 21:31:49,250 - root - DEBUG - Removed old inactive track 7
+2025-06-27 21:31:49,268 - root - INFO - Frame 330/375 (88.0%) - FPS: 0.5, Frame time: 2081.0ms
+2025-06-27 21:32:22,630 - root - DEBUG - Moved track 26 to inactive
+2025-06-27 21:32:26,779 - root - DEBUG - Re-identified player 26
+2025-06-27 21:32:30,956 - root - DEBUG - Created new track 37
+2025-06-27 21:32:37,194 - root - DEBUG - Re-identified player 35
+2025-06-27 21:32:37,194 - root - DEBUG - Moved track 6 to inactive
+2025-06-27 21:32:43,457 - root - DEBUG - Created new track 38
+2025-06-27 21:32:51,795 - root - INFO - Frame 360/375 (96.0%) - FPS: 0.5, Frame time: 2059.6ms
+2025-06-27 21:32:53,867 - root - DEBUG - Moved track 20 to inactive
+2025-06-27 21:32:55,949 - root - DEBUG - Removed old inactive track 3
+2025-06-27 21:33:00,212 - root - DEBUG - Moved track 36 to inactive
+2025-06-27 21:33:08,571 - root - DEBUG - Removed old inactive track 11
+2025-06-27 21:33:08,572 - root - DEBUG - Removed old inactive track 23
+2025-06-27 21:33:14,764 - root - DEBUG - Moved track 33 to inactive
+2025-06-27 21:33:18,526 - root - DEBUG - Moved track 13 to inactive
+2025-06-27 21:33:22,426 - root - DEBUG - Removed old inactive track 9
+2025-06-27 21:33:22,450 - root - INFO - Frame 375/375 (100.0%) - FPS: 0.5, Frame time: 2037.9ms
+2025-06-27 21:33:22,499 - root - INFO - ==================================================
+2025-06-27 21:33:22,499 - root - INFO - PROCESSING COMPLETE
+2025-06-27 21:33:22,499 - root - INFO - ==================================================
+2025-06-27 21:33:22,499 - root - INFO - Total frames processed: 375
+2025-06-27 21:33:22,499 - root - INFO - Total processing time: 796.47s
+2025-06-27 21:33:22,499 - root - INFO - Average FPS: 0.47
+2025-06-27 21:33:22,499 - root - INFO - Total detections: 4641
+2025-06-27 21:33:22,500 - root - INFO - Max simultaneous tracks: 27
+2025-06-27 21:33:22,500 - root - INFO - Detection validity rate: 98.20%
+2025-06-27 21:33:22,500 - root - INFO - Total tracks created: 38
+2025-06-27 21:33:22,500 - root - INFO - Successful re-identifications: 25
+2025-06-27 21:33:22,500 - root - INFO - Re-identification rate: 65.79%
+2025-06-27 21:33:22,500 - root - INFO - Output saved to: data/output/tracked_output.mp4
+2025-06-27 21:33:22,500 - root - INFO - ==================================================
+2025-06-27 21:33:22,501 - root - INFO - Processing complete!
+2025-06-27 21:44:04,396 - root - INFO - Starting Player Re-identification System
+2025-06-27 21:44:04,417 - root - INFO - Initializing detector...
+2025-06-27 21:44:04,419 - root - INFO - Using CPU
+2025-06-27 21:44:05,917 - root - INFO - ✓ Successfully loaded model from /Users/srinivas/Desktop/player_reidentification/models/yolov11_player_detection.pt
+2025-06-27 21:44:05,918 - root - INFO - ✓ Model classes: {0: 'ball', 1: 'goalkeeper', 2: 'player', 3: 'referee'}
+2025-06-27 21:44:05,918 - root - INFO - ✓ Device: cpu
+2025-06-27 21:44:05,918 - root - INFO - Initializing tracker...
+2025-06-27 21:44:05,919 - root - DEBUG - FeatureExtractor initialized with 32 color bins
+2025-06-27 21:44:05,919 - root - INFO - Player tracker initialized
+2025-06-27 21:44:05,919 - root - INFO - Initializing video processor...
+2025-06-27 21:44:05,928 - root - INFO - Starting video processing...
+2025-06-27 21:44:06,046 - root - INFO - Processing video: 1280x720 @ 25.0 FPS, 375 frames
+2025-06-27 21:44:06,046 - root - INFO - Input: /Users/srinivas/Desktop/player_reidentification/data/15sec_input_720p.mp4
+2025-06-27 21:44:06,046 - root - INFO - Output: data/output/tracked_output.mp4
+2025-06-27 21:44:16,504 - root - DEBUG - Created new track 1
+2025-06-27 21:44:16,505 - root - DEBUG - Created new track 2
+2025-06-27 21:44:16,505 - root - DEBUG - Created new track 3
+2025-06-27 21:44:16,506 - root - DEBUG - Created new track 4
+2025-06-27 21:44:16,506 - root - DEBUG - Created new track 5
+2025-06-27 21:44:16,506 - root - DEBUG - Created new track 6
+2025-06-27 21:44:16,506 - root - DEBUG - Created new track 7
+2025-06-27 21:44:16,506 - root - DEBUG - Created new track 8
+2025-06-27 21:44:16,507 - root - DEBUG - Created new track 9
+2025-06-27 21:44:16,507 - root - DEBUG - Created new track 10
+2025-06-27 21:44:16,507 - root - DEBUG - Created new track 11
+2025-06-27 21:44:16,507 - root - DEBUG - Created new track 12
+2025-06-27 21:44:16,507 - root - DEBUG - Created new track 13
+2025-06-27 21:44:16,507 - root - DEBUG - Created new track 14
+2025-06-27 21:44:16,507 - root - DEBUG - Created new track 15
+2025-06-27 21:44:16,507 - root - DEBUG - Created new track 16
+2025-06-27 21:44:16,507 - root - DEBUG - Created new track 17
+2025-06-27 21:44:35,325 - root - DEBUG - Created new track 18
+2025-06-27 21:44:49,574 - root - DEBUG - Created new track 19
+2025-06-27 21:45:01,612 - root - DEBUG - Created new track 20
+2025-06-27 21:45:07,781 - root - DEBUG - Created new track 21
+2025-06-27 21:45:10,068 - root - DEBUG - Created new track 22
+2025-06-27 21:45:16,109 - root - INFO - Frame 30/375 (8.0%) - FPS: 0.4, Frame time: 2298.9ms
+2025-06-27 21:45:51,142 - root - DEBUG - Created new track 23
+2025-06-27 21:45:55,196 - root - DEBUG - Moved track 12 to inactive
+2025-06-27 21:46:01,358 - root - DEBUG - Created new track 24
+2025-06-27 21:46:11,513 - root - DEBUG - Moved track 18 to inactive
+2025-06-27 21:46:17,865 - root - INFO - Frame 60/375 (16.0%) - FPS: 0.5, Frame time: 2034.0ms
+2025-06-27 21:46:34,546 - root - DEBUG - Created new track 25
+2025-06-27 21:46:54,874 - root - DEBUG - Re-identified player 12
+2025-06-27 21:46:56,961 - root - DEBUG - Created new track 26
+2025-06-27 21:47:17,608 - root - DEBUG - Created new track 27
+2025-06-27 21:47:19,693 - root - INFO - Frame 90/375 (24.0%) - FPS: 0.5, Frame time: 2035.4ms
+2025-06-27 21:47:23,784 - root - DEBUG - Moved track 21 to inactive
+2025-06-27 21:47:25,859 - root - DEBUG - Moved track 14 to inactive
+2025-06-27 21:47:30,542 - root - DEBUG - Created new track 28
+2025-06-27 21:47:36,724 - root - DEBUG - Moved track 1 to inactive
+2025-06-27 21:47:40,824 - root - DEBUG - Moved track 20 to inactive
+2025-06-27 21:47:53,238 - root - DEBUG - Created new track 29
+2025-06-27 21:48:07,543 - root - DEBUG - Moved track 23 to inactive
+2025-06-27 21:48:09,604 - root - DEBUG - Re-identified player 20
+2025-06-27 21:48:09,605 - root - DEBUG - Moved track 25 to inactive
+2025-06-27 21:48:11,673 - root - DEBUG - Re-identified player 1
+2025-06-27 21:48:17,863 - root - DEBUG - Created new track 30
+2025-06-27 21:48:22,005 - root - INFO - Frame 120/375 (32.0%) - FPS: 0.5, Frame time: 2052.1ms
+2025-06-27 21:48:32,256 - root - DEBUG - Moved track 5 to inactive
+2025-06-27 21:48:42,453 - root - DEBUG - Re-identified player 23
+2025-06-27 21:48:44,496 - root - DEBUG - Created new track 31
+2025-06-27 21:49:07,297 - root - DEBUG - Re-identified player 5
+2025-06-27 21:49:11,427 - root - DEBUG - Moved track 24 to inactive
+2025-06-27 21:49:13,507 - root - DEBUG - Moved track 11 to inactive
+2025-06-27 21:49:23,753 - root - INFO - Frame 150/375 (40.0%) - FPS: 0.5, Frame time: 2033.5ms
+2025-06-27 21:49:27,820 - root - DEBUG - Moved track 9 to inactive
+2025-06-27 21:49:27,821 - root - DEBUG - Moved track 15 to inactive
+2025-06-27 21:49:29,879 - root - DEBUG - Moved track 4 to inactive
+2025-06-27 21:49:36,023 - root - DEBUG - Moved track 2 to inactive
+2025-06-27 21:49:48,319 - root - DEBUG - Removed old inactive track 18
+2025-06-27 21:49:50,370 - root - DEBUG - Moved track 6 to inactive
+2025-06-27 21:49:52,421 - root - DEBUG - Moved track 17 to inactive
+2025-06-27 21:50:13,805 - root - DEBUG - Re-identified player 9
+2025-06-27 21:50:15,950 - root - DEBUG - Moved track 10 to inactive
+2025-06-27 21:50:18,027 - root - DEBUG - Moved track 22 to inactive
+2025-06-27 21:50:18,027 - root - DEBUG - Moved track 23 to inactive
+2025-06-27 21:50:26,158 - root - INFO - Frame 180/375 (48.0%) - FPS: 0.5, Frame time: 2055.4ms
+2025-06-27 21:50:34,350 - root - DEBUG - Re-identified player 11
+2025-06-27 21:50:50,619 - root - DEBUG - Moved track 31 to inactive
+2025-06-27 21:50:52,653 - root - DEBUG - Re-identified player 6
+2025-06-27 21:51:00,770 - root - DEBUG - Re-identified player 22
+2025-06-27 21:51:00,771 - root - DEBUG - Removed old inactive track 21
+2025-06-27 21:51:02,798 - root - DEBUG - Created new track 32
+2025-06-27 21:51:02,798 - root - DEBUG - Removed old inactive track 14
+2025-06-27 21:51:08,890 - root - DEBUG - Moved track 30 to inactive
+2025-06-27 21:51:08,890 - root - DEBUG - Moved track 5 to inactive
+2025-06-27 21:51:27,237 - root - DEBUG - Re-identified player 23
+2025-06-27 21:51:27,253 - root - INFO - Frame 210/375 (56.0%) - FPS: 0.5, Frame time: 2012.2ms
+2025-06-27 21:51:41,297 - root - DEBUG - Re-identified player 31
+2025-06-27 21:51:41,298 - root - DEBUG - Re-identified player 24
+2025-06-27 21:51:45,303 - root - DEBUG - Removed old inactive track 25
+2025-06-27 21:51:47,316 - root - DEBUG - Moved track 9 to inactive
+2025-06-27 21:51:55,292 - root - DEBUG - Re-identified player 9
+2025-06-27 21:51:57,368 - root - DEBUG - Created new track 33
+2025-06-27 21:51:57,368 - root - DEBUG - Moved track 7 to inactive
+2025-06-27 21:52:07,316 - root - DEBUG - Created new track 34
+2025-06-27 21:52:09,275 - root - DEBUG - Created new track 35
+2025-06-27 21:52:26,979 - root - DEBUG - Created new track 36
+2025-06-27 21:52:26,979 - root - DEBUG - Moved track 16 to inactive
+2025-06-27 21:52:26,997 - root - INFO - Frame 240/375 (64.0%) - FPS: 0.5, Frame time: 1966.9ms
+2025-06-27 21:52:36,897 - root - DEBUG - Moved track 22 to inactive
+2025-06-27 21:52:40,806 - root - DEBUG - Moved track 6 to inactive
+2025-06-27 21:52:44,734 - root - DEBUG - Re-identified player 22
+2025-06-27 21:53:00,851 - root - DEBUG - Moved track 3 to inactive
+2025-06-27 21:53:00,853 - root - DEBUG - Removed old inactive track 15
+2025-06-27 21:53:02,839 - root - DEBUG - Removed old inactive track 4
+2025-06-27 21:53:04,819 - root - DEBUG - Moved track 1 to inactive
+2025-06-27 21:53:06,776 - root - DEBUG - Moved track 13 to inactive
+2025-06-27 21:53:08,767 - root - DEBUG - Removed old inactive track 2
+2025-06-27 21:53:12,733 - root - DEBUG - Moved track 11 to inactive
+2025-06-27 21:53:12,733 - root - DEBUG - Moved track 23 to inactive
+2025-06-27 21:53:12,733 - root - DEBUG - Moved track 31 to inactive
+2025-06-27 21:53:12,733 - root - DEBUG - Moved track 24 to inactive
+2025-06-27 21:53:20,717 - root - DEBUG - Moved track 12 to inactive
+2025-06-27 21:53:24,682 - root - DEBUG - Removed old inactive track 17
+2025-06-27 21:53:26,672 - root - DEBUG - Moved track 9 to inactive
+2025-06-27 21:53:26,685 - root - INFO - Frame 270/375 (72.0%) - FPS: 0.5, Frame time: 1964.9ms
+2025-06-27 21:53:36,535 - root - DEBUG - Re-identified player 13
+2025-06-27 21:53:44,470 - root - DEBUG - Moved track 19 to inactive
+2025-06-27 21:53:46,492 - root - DEBUG - Removed old inactive track 10
+2025-06-27 21:53:50,415 - root - DEBUG - Re-identified player 12
+2025-06-27 21:54:02,384 - root - DEBUG - Re-identified player 31
+2025-06-27 21:54:10,369 - root - DEBUG - Re-identified player 24
+2025-06-27 21:54:18,342 - root - DEBUG - Re-identified player 5
+2025-06-27 21:54:18,342 - root - DEBUG - Moved track 26 to inactive
+2025-06-27 21:54:26,344 - root - DEBUG - Re-identified player 26
+2025-06-27 21:54:26,362 - root - INFO - Frame 300/375 (80.0%) - FPS: 0.5, Frame time: 1965.0ms
+2025-06-27 21:54:32,391 - root - DEBUG - Re-identified player 1
+2025-06-27 21:54:32,392 - root - DEBUG - Moved track 22 to inactive
+2025-06-27 21:54:34,436 - root - DEBUG - Re-identified player 16
+2025-06-27 21:54:38,473 - root - DEBUG - Removed old inactive track 30
+2025-06-27 21:54:40,543 - root - DEBUG - Re-identified player 6
+2025-06-27 21:55:03,046 - root - DEBUG - Moved track 34 to inactive
+2025-06-27 21:55:16,419 - root - DEBUG - Moved track 35 to inactive
+2025-06-27 21:55:34,128 - root - DEBUG - Removed old inactive track 7
+2025-06-27 21:55:34,150 - root - INFO - Frame 330/375 (88.0%) - FPS: 0.5, Frame time: 2235.0ms
+2025-06-27 21:56:06,380 - root - DEBUG - Moved track 26 to inactive
+2025-06-27 21:56:10,399 - root - DEBUG - Re-identified player 26
+2025-06-27 21:56:14,408 - root - DEBUG - Created new track 37
+2025-06-27 21:56:20,486 - root - DEBUG - Re-identified player 35
+2025-06-27 21:56:20,486 - root - DEBUG - Moved track 6 to inactive
+2025-06-27 21:56:26,531 - root - DEBUG - Created new track 38
+2025-06-27 21:56:34,610 - root - INFO - Frame 360/375 (96.0%) - FPS: 0.5, Frame time: 1990.7ms
+2025-06-27 21:56:36,641 - root - DEBUG - Moved track 20 to inactive
+2025-06-27 21:56:38,674 - root - DEBUG - Removed old inactive track 3
+2025-06-27 21:56:42,719 - root - DEBUG - Moved track 36 to inactive
+2025-06-27 21:56:50,784 - root - DEBUG - Removed old inactive track 11
+2025-06-27 21:56:50,784 - root - DEBUG - Removed old inactive track 23
+2025-06-27 21:56:56,860 - root - DEBUG - Moved track 33 to inactive
+2025-06-27 21:57:00,632 - root - DEBUG - Moved track 13 to inactive
+2025-06-27 21:57:04,394 - root - DEBUG - Removed old inactive track 9
+2025-06-27 21:57:04,416 - root - INFO - Frame 375/375 (100.0%) - FPS: 0.5, Frame time: 1976.0ms
+2025-06-27 21:57:04,474 - root - INFO - ==================================================
+2025-06-27 21:57:04,474 - root - INFO - PROCESSING COMPLETE
+2025-06-27 21:57:04,474 - root - INFO - ==================================================
+2025-06-27 21:57:04,475 - root - INFO - Total frames processed: 375
+2025-06-27 21:57:04,476 - root - INFO - Total processing time: 778.36s
+2025-06-27 21:57:04,476 - root - INFO - Average FPS: 0.48
+2025-06-27 21:57:04,477 - root - INFO - Total detections: 4641
+2025-06-27 21:57:04,477 - root - INFO - Max simultaneous tracks: 27
+2025-06-27 21:57:04,477 - root - INFO - Detection validity rate: 98.20%
+2025-06-27 21:57:04,477 - root - INFO - Total tracks created: 38
+2025-06-27 21:57:04,477 - root - INFO - Successful re-identifications: 25
+2025-06-27 21:57:04,478 - root - INFO - Re-identification rate: 65.79%
+2025-06-27 21:57:04,478 - root - INFO - Output saved to: data/output/tracked_output.mp4
+2025-06-27 21:57:04,478 - root - INFO - ==================================================
+2025-06-27 21:57:04,479 - root - INFO - Processing complete!
